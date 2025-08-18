@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Dashboard</title>
+  <style>
+    /* === Shared Styles === */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar-brand {
+      font-size: 1.8rem; font-weight: 700;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .navbar-right a {
+      text-decoration: none;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .navbar-right a:hover {
+      background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+    }
+
+    .main-section {
+      flex: 1;
+      background: #f8f9fa;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    iframe {
+      background: #F1F5F4;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      width: 100%;
+      height: 80vh;
+    }
+
+    .footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-brand">BMI Dashboard</div>
+    <div class="navbar-right">
+      <a href="Web_Interface.html">Home</a>
+    </div>
+  </div>
+
+  <!-- Charts Section -->
+  <section class="main-section">
+    <iframe 
+      src="https://charts.mongodb.com/charts-project-0-uryxh/embed/dashboards?id=780afee1-f6fb-4235-8390-10ac1efb708a&theme=light&autoRefresh=true&maxDataAge=14400&showTitleAndDesc=false&scalingWidth=fixed&scalingHeight=fixed">
+    </iframe>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer">
+    &copy; 2025 AronAgent
+    <a href="https://github.com/ARONAGENT" style="color: white;"   target="_blank">GitHub</a> | 
+    <a href="https://www.linkedin.com/in/aronagent/" style="color: white;"target="_blank">LinkedIn</a>
+  </footer>
+</body>
+</html>
