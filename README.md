@@ -20,13 +20,24 @@ AI-Powered BMI Calculator is an intelligent health assistant that combines tradi
 ## 🎥 Demo
 
 
-https://github.com/user-attachments/assets/19f5687a-b4f3-40e9-9e8c-6f69ddf083af
+
+
+https://github.com/user-attachments/assets/ba6b4c72-0550-40e8-9dab-8881a4dfbf1d
 
 
 
 
 ## Mongo Db Storage
-<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/5ba524f9-e999-4fe7-9d69-f8a8a92b3e28" />
+
+<img width="1916" height="1079" alt="image" src="https://github.com/user-attachments/assets/7d238e9e-17e8-4e69-827a-b155d585fb3a" />
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1ad9e1f5-02a3-42eb-820d-5e9278eacf0b" />
+
+## Mongosh Shell Retrive Data
+
+<img width="1693" height="702" alt="image" src="https://github.com/user-attachments/assets/3c6ec6af-7034-40d2-9326-fa1e81cb3d0a" />
+
 
 ## ✨ Features
 
