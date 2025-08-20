@@ -38,7 +38,7 @@ https://github.com/user-attachments/assets/ba6b4c72-0550-40e8-9dab-8881a4dfbf1d
 
 <img width="1693" height="702" alt="image" src="https://github.com/user-attachments/assets/3c6ec6af-7034-40d2-9326-fa1e81cb3d0a" />
 
-## BMI Analysis Dashborad
+## BMI Analysis Dashborad (Updated)
 <img width="1899" height="758" alt="image" src="https://github.com/user-attachments/assets/8f10e7ee-240c-4cac-80a8-074236435b99" />
 
 
