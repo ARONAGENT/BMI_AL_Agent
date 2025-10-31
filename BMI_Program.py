@@ -47,11 +47,18 @@ def add_bmi_report():
         }}
         """
         
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         response = model.generate_content(prompt)
         
         try:
-            bmi_report = json.loads(response.text)
+            raw = response.text.strip()
+            # Clean common wrappers
+            raw = raw.replace("```json", "").replace("```", "").strip()
+            # Find first '{' and last '}'
+            start, end = raw.find('{'), raw.rfind('}') + 1
+            if start != -1 and end != -1:
+                raw = raw[start:end]
+            bmi_report = json.loads(raw)
         except json.JSONDecodeError:
             return jsonify({"status": "failed", "error": "Invalid JSON from Gemini", "raw_response": response.text})
         
